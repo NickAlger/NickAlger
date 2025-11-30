@@ -22,12 +22,12 @@ $$\Xi := \{\xi \in \mathbb{Z}^n: 1 \le \xi, \text{ and } \prod_{i=1}^n \xi_i \le
 
 the continuous sets
 
-\[
+\\[
 \begin{aligned}
     \Upsilon_n :=& \{\mathbf{x} \in \mathbb{R}^n : 1 \le \mathbf{x}, \text{ and } \prod_{i=1}^n \mathbf{x}_i \le R\} \\
     \overline{\Upsilon}_n :=& \{\mathbf{x} \in \mathbb{R}^n : 0 \le \mathbf{x}, \text{ and } \prod_{i=1}^n \max(1, \mathbf{x}_i) < R\}
 \end{aligned}
-\]
+\\]
 
 
 \begin{align*}
