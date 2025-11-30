@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 <script>
 MathJax = {
   tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$'], ['\\[', '\\]']] }
