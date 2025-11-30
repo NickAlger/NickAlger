@@ -4,6 +4,15 @@ layout: page
 permalink: hcross
 ---
 
+<style>
+blockquote {
+  color: black !important;
+}
+blockquote p {
+  color: black !important;
+}
+</style>
+
 <script>
 MathJax = {
   tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$'], ['\\[', '\\]']] }
@@ -14,38 +23,38 @@ MathJax = {
 ---
 
 
-**Proposition 1** (Bounding discrete sum by integrals).
-
-Let $a \ge 0$, $R > 1$, let $n$ be a nonnegative integer, and define the discrete set
-
-$$
-\Xi := \{\xi \in \mathbb{Z}^n: 1 \le \xi, \text{ and } \prod_{i=1}^n \xi_i \le R\}
-$$
-
-the continuous sets
-
-$$
-\begin{aligned}
-    \Upsilon_n :=& \{\mathbf{x} \in \mathbb{R}^n: 1 \le \mathbf{x}, \text{ and } \prod_{i=1}^n \mathbf{x}_i \le R\} \\
-    \overline{\Upsilon}_n :=& \{\mathbf{x} \in \mathbb{R}^n: 0 \le \mathbf{x}, \text{ and } \prod_{i=1}^n \max(1, \mathbf{x}_i) < R\} 
-\end{aligned}
-$$
-
-Here, vector inequalities are understood componentwise, e.g., $1 \le \mathbf{x}$ means $1 \le \mathbf{x}_i$ for $i=1,2,\dots,n$, where $\mathbf{x}_i$ denotes the $i$th component of the vector $\mathbf{x}$. These sets are illustrated for $n=2$ in the left and middle subfigures of Figure 1. Also define the integrals
-
-$$
-I_n := \int_{\Upsilon_n} \prod_{i=1}^n \mathbf{x}_i^{-a} d\mathbf{x} \qquad (1)
-$$
-
-$$
-J_n := \int_{\overline{\Upsilon}_n} \prod_{i=1}^n \max(1, \mathbf{x}_i)^{-a} d\mathbf{x} \qquad (2)
-$$
-
-for $n>0$ and $I_0 = J_0 := 1$. Then
-
-$$
-I_n \le \sum_{\xi \in \Xi} \prod_{i=1}^n \xi_i^{-a} \le J_n. \qquad (3)
-$$
+> **Proposition 1** (Bounding discrete sum by integrals).
+> 
+> Let $a \ge 0$, $R > 1$, let $n$ be a nonnegative integer, and define the discrete set
+> 
+> $$
+> \Xi := \{\xi \in \mathbb{Z}^n: 1 \le \xi, \text{ and } \prod_{i=1}^n \xi_i \le R\}
+> $$
+> 
+> the continuous sets
+> 
+> $$
+> \begin{aligned}
+>     \Upsilon_n :=& \{\mathbf{x} \in \mathbb{R}^n: 1 \le \mathbf{x}, \text{ and } \prod_{i=1}^n \mathbf{x}_i \le R\} \\
+>     \overline{\Upsilon}_n :=& \{\mathbf{x} \in \mathbb{R}^n: 0 \le \mathbf{x}, \text{ and } \prod_{i=1}^n \max(1, \mathbf{x}_i) < R\} 
+> \end{aligned}
+> $$
+> 
+> Here, vector inequalities are understood componentwise, e.g., $1 \le \mathbf{x}$ means $1 \le \mathbf{x}_i$ for $i=1,2,\dots,n$, where $\mathbf{x}_i$ denotes the $i$th component of the vector $\mathbf{x}$. These sets are illustrated for $n=2$ in the left and middle subfigures of Figure 1. Also define the integrals
+> 
+> $$
+> I_n := \int_{\Upsilon_n} \prod_{i=1}^n \mathbf{x}_i^{-a} d\mathbf{x} \qquad (1)
+> $$
+> 
+> $$
+> J_n := \int_{\overline{\Upsilon}_n} \prod_{i=1}^n \max(1, \mathbf{x}_i)^{-a} d\mathbf{x} \qquad (2)
+> $$
+> 
+> for $n>0$ and $I_0 = J_0 := 1$. Then
+> 
+> $$
+> I_n \le \sum_{\xi \in \Xi} \prod_{i=1}^n \xi_i^{-a} \le J_n. \qquad (3)
+> $$
 
 
 
