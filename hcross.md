@@ -56,9 +56,7 @@ MathJax = {
 > I_n \le \sum_{\xi \in \Xi} \prod_{i=1}^n \xi_i^{-a} \le J_n. \qquad (3)
 > $$
 
-
-
-**Proof.**
+*Proof.*
 The case $n=0$ holds trivially, so assume that $n \ge 1$. Let $B_\xi := \bigtimes_{i=1}^n [\xi_i-1, \xi_i]$ denote the $1 \times \dots \times 1$ box in $\mathbb{R}^n$ with maximum corner $\xi$, and define 
 
 $$
