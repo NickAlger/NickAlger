@@ -2,5 +2,6 @@ theme: minima
 markdown: kramdown
 title: Test0
 author: Nick Alger
+baseurl: ""
 header_pages:
   - about.md
