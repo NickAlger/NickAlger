@@ -11,7 +11,7 @@ MathJax = {
 
 Test 4
 
-[Link to puzzle tutorial]({% link astroknot.md %})
+[Link to puzzle tutorial]({% link /astroknot.md %})
 
 $$\int_\Omega f(x) dx$$
 
