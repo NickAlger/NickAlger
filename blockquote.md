@@ -11,7 +11,7 @@ blockquote p {
 }
 </style>
 
-> This blockquote has custom blue text color on GitHub Pages.
+> This blockquote has custom black text color on GitHub Pages.
 >
 > 3
 
