@@ -4,10 +4,10 @@ layout: default
 
 <style>
 blockquote {
-  color: #0066cc !important;
+  color: black !important;
 }
 blockquote p {
-  color: #0066cc !important;
+  color: black !important;
 }
 </style>
 
