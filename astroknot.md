@@ -13,4 +13,6 @@ MathJax = {
 
 Test 11
 
+{{ page.path }}
+
 $$\left\langle v, \mathcal{A}u\right\rangle$$
