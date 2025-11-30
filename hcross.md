@@ -4,12 +4,6 @@ layout: page
 permalink: hcross
 ---
 
-<style>
-.markdown-body blockquote {
-  color: red;
-}
-</style>
-
 <script>
 MathJax = {
   tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$'], ['\\[', '\\]']] }
@@ -20,9 +14,9 @@ MathJax = {
 ---
 
 
-> **Proposition 1** (Bounding discrete sum by integrals).
->
-> Let $a \ge 0$, $R > 1$, let $n$ be a nonnegative integer, and define the discrete set
+**Proposition 1** (Bounding discrete sum by integrals).
+
+Let $a \ge 0$, $R > 1$, let $n$ be a nonnegative integer, and define the discrete set
 
 $$
 \Xi := \{\xi \in \mathbb{Z}^n: 1 \le \xi, \text{ and } \prod_{i=1}^n \xi_i \le R\}
