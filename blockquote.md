@@ -3,8 +3,9 @@ layout: default
 ---
 
 <style>
-.markdown-body blockquote {
-  color: #0066cc !important;  /* Blue text for blockquotes */
+.markdown-body blockquote,
+.markdown-body blockquote p {
+  color: #0066cc !important;
 }
 </style>
 
