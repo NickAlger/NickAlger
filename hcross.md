@@ -4,6 +4,12 @@ layout: page
 permalink: hcross
 ---
 
+<style>
+.markdown-body blockquote {
+  color: red;
+}
+</style>
+
 <script>
 MathJax = {
   tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$'], ['\\[', '\\]']] }
@@ -13,9 +19,10 @@ MathJax = {
 
 ---
 
-**Proposition 1 (Bounding discrete sum by integrals).**
 
-Let $a \ge 0$, $R > 1$, let $n$ be a nonnegative integer, and define the discrete set
+> **Proposition 1** (Bounding discrete sum by integrals).
+>
+> Let $a \ge 0$, $R > 1$, let $n$ be a nonnegative integer, and define the discrete set
 
 $$
 \Xi := \{\xi \in \mathbb{Z}^n: 1 \le \xi, \text{ and } \prod_{i=1}^n \xi_i \le R\}
@@ -46,15 +53,17 @@ $$
 I_n \le \sum_{\xi \in \Xi} \prod_{i=1}^n \xi_i^{-a} \le J_n. \qquad (3)
 $$
 
+
+
 **Proof.**
-The case $n=0$ holds trivially, so assume that $n \ge 1$. Let $B_\xi := \bigtimes_{i=1}^n [\xi_i-1, \xi]$ denote the $1 \times \dots \times 1$ box in $\mathbb{R}^n$ with maximum corner $\xi$, and define 
+The case $n=0$ holds trivially, so assume that $n \ge 1$. Let $B_\xi := \bigtimes_{i=1}^n [\xi_i-1, \xi_i]$ denote the $1 \times \dots \times 1$ box in $\mathbb{R}^n$ with maximum corner $\xi$, and define 
 
 $$
 B := \bigcup_{\xi \in \Xi} B_\xi.
 $$
 
 Further, let $\text{ceil}(\cdot)$ denote the ceiling function. That is, $\text{ceil}(t)$ is the smallest integer greater than or equal to $t$. Since the function 
-$\text{ceil}(\mathbf{x}_i)^{-a}$
+$\text{ceil}(x_l)^{-a}$
 is piecewise constant and takes the value 
 $\prod_{j=1}^n \xi_j^{-a}$ 
 on the interior of $B_\xi$, it follows that
