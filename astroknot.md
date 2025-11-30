@@ -1,6 +1,7 @@
 ---
 title: Astroknot puzzle
 layout: page
+permalink: astroknot
 ---
 
 <script>
