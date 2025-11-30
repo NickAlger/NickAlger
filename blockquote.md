@@ -10,5 +10,7 @@ layout: default
 </style>
 
 > This blockquote has custom blue text color on GitHub Pages.
+>
+> 2
 
 Regular text remains unchanged.
