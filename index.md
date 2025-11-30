@@ -1,5 +1,4 @@
 ---
-title: homepage
 layout: home
 ---
 
