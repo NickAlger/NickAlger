@@ -36,4 +36,4 @@ def left_orthogonalize_utt(
     last_new_tt_core = jnp.einsum('ij,djak->diak', R, tt_cores[-1:])
     new_tt_cores = jnp.concatenate([first_new_tt_cores, last_new_tt_core], axis=0)
     return new_tt_cores
-'''
+```
