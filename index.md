@@ -11,6 +11,8 @@ MathJax = {
 
 Test 4
 
+[Link to puzzle tutorial]({% link astroknot.md %})
+
 $$\int_\Omega f(x) dx$$
 
 ```python
