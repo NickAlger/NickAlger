@@ -21,6 +21,12 @@ MathJax = {
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 
+> ![Hyperbolic cross upper bound diagram](hcross/hcross_upper_bound_diagram.svg)
+> ![Hyperbolic cross lower bound diagram](hcross/hcross_lower_bound_diagram.svg)
+> 
+> **Figure 1:** (Continuous upper and lower bounds for the discrete hyperbolic cross) Black dots are points in the 2D hyperbolic cross $\Xi$. The area of the dark shaded boxes equals the number of points in $\Xi$. Left: The continuous upper bound $\Xi \subset \overline{\Upsilon}_2$ (shaded light gray) contains the dark shaded boxes. Right: The continuous lower bound $\Upsilon-1 \subset \Xi$, i.e., the set $\Upsilon$ translated by the vector $(-1,-1)$, is contained in the union of the dark shaded boxes.
+
+
 > **Proposition 1** (Bounding discrete sum by integrals).
 > 
 > Let $a \ge 0$, $R > 1$, let $n$ be a nonnegative integer, and define the discrete set
