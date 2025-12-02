@@ -8,14 +8,12 @@ permalink: drawings_and_paintings
 
 ## Unicycle
 
-![Unicycle drawing](./drawings/m_uni.jpg)
-
-[<img src="./drawings/m_uni.jpg" width="250" />](./drawings/m_uni.jpg)
+[<img src="./drawings/m_uni.jpg" width="300" />](./drawings/m_uni.jpg)
 
 Hub, cranks, and fork of a unicycle.
 
 ## Face
 
-![Face blind contour](./drawings/m_face3.jpg)
+[<img src="./drawings/m_face3.jpg" width="300" />](./drawings/m_face3.jpg)
 
 Blind contour drawing of a face.
