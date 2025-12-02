@@ -1,7 +1,7 @@
 ---
-title: Drawings and paintings
+title: Drawings
 layout: page
-permalink: drawings_and_paintings
+permalink: drawings
 ---
 
 # Drawings
