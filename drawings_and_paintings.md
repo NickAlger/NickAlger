@@ -26,7 +26,7 @@ Self portrait drawn by painting water onto the canvas, then dropping ink onto it
 
 ## Backpack
 
-[<img src="./drawings/m_backpack.jpg" width="300" />](./drawings/m_backpack.jpg)
+[<img src="./drawings/m_backpack1.jpg" width="300" />](./drawings/m_backpack1.jpg)
 
 Contour drawing of a backpack on a chair.
 
