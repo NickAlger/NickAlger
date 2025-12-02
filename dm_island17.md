@@ -14,13 +14,13 @@ Dm_Island17 was made for the 2004/2005 Valve Half-Life 2: Deathmatch mapping con
 
 Anyone is welcome to remake/remix or otherwise use the source file in their own projects as they see fit.
 
-![dm_island17 image 2](./dm_island17/dm_island17_s2_m5.jpg)
+![dm_island17 image 2](./dm_island17/dm_island17_s2_m1.jpg)
 
-![dm_island17 image 3](./dm_island17/dm_island17_s3_m5.jpg)
+![dm_island17 image 3](./dm_island17/dm_island17_s3_m1.jpg)
 
-![dm_island17 image 4](./dm_island17/dm_island17_s4_m5.jpg)
+![dm_island17 image 4](./dm_island17/dm_island17_s4_m1.jpg)
 
-![dm_island17 image 5](./dm_island17/dm_island17_s5_m5.jpg)
+![dm_island17 image 5](./dm_island17/dm_island17_s5_m1.jpg)
 
 # Remakes/remixes/other
 
