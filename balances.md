@@ -10,7 +10,7 @@ permalink: balances
 
 [<img src="./balances/triple_coin2.jpg" width="400" />](./balances/triple_coin2.jpg)
 
-**Video:** https://www.youtube.com/watch?v=uKhCzyvYJ6I
+**Video:** [https://www.youtube.com/watch?v=uKhCzyvYJ6I](https://www.youtube.com/watch?v=uKhCzyvYJ6I)
 
 
 # Cantilever coin balance
