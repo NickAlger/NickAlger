@@ -26,10 +26,10 @@ Anyone is welcome to remake/remix or otherwise use the source file in their own 
 
  - MacD remade this map for Zombie Mod. You can check it out here: http://zombiemod.com/forums/showthread.php?t=2795 Or here: [zm_macd_island17](http://www.fpsbanana.com/maps/32680)
  - Bird’s Eye Video by MrSniperduck: http://www.youtube.com/watch?v=UtFW94gcRDo
- - Ashboy909 made a music video of the map, set to Daft Punk: http://www.youtube.com/watch?v=-tG8tD5y51Q
- - SgtMako made an action-sequence video using the map, here: http://www.youtube.com/watch?v=pjjJYkQ2Sp0#t=03m35s
- - XeonIgnitionStudios made a short action film using the map: http://www.youtube.com/watch?v=pOJ8NG6zwig
- - SawBladeComb made a short machinama film using the map: http://www.youtube.com/watch?v=RM2HA3WuT0I
+ - Ashboy909 made a music video of the map, set to Daft Punk: [http://www.youtube.com/watch?v=-tG8tD5y51Q](http://www.youtube.com/watch?v=-tG8tD5y51Q)
+ - SgtMako made an action-sequence video using the map, here: [http://www.youtube.com/watch?v=pjjJYkQ2Sp0#t=03m35s](http://www.youtube.com/watch?v=pjjJYkQ2Sp0#t=03m35s)
+ - XeonIgnitionStudios made a short action film using the map: [http://www.youtube.com/watch?v=pOJ8NG6zwig](http://www.youtube.com/watch?v=pOJ8NG6zwig)
+ - SawBladeComb made a short machinama film using the map: [http://www.youtube.com/watch?v=RM2HA3WuT0I](http://www.youtube.com/watch?v=RM2HA3WuT0I)
  - Someone (I don’t know who) made a night version called dm_Island18. [dm_island18](http://www.theicecave.net/zm/maps/dm_island18.bsp.bz2)
  - There’s a ttt version floating around, which can be downloaded here: [ttt_island17](http://filesmelt.com/dl/ttt_island17.bsp), I don’t know who ported it.
  - Another version, this one for the IF mod, [if_island17](http://www.garrysmod.org/downloads/?a=view&id=98757)
