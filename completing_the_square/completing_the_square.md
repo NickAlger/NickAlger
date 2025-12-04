@@ -8,6 +8,6 @@ permalink: completing_the_square
  - A variant of this image is currently used on the [wikipedia page](https://en.wikipedia.org/wiki/Completing_the_square), which I approve of. 
  - I release the image to the public domain.
 
-![Illustration of completing the square](./images/completing_the_square21.png)
+![Illustration of completing the square](completing_the_square21.png)
 
  
