@@ -6,7 +6,7 @@ permalink: drawings
 
 # Unicycle
 
-[<img src="m_uni.jpg" width="400" />](m_uni.jpg)
+[<img src="m_uni.jpg" width="400" />](drawings/m_uni.jpg)
 
 Hub, cranks, and fork of a unicycle.
 
