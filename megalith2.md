@@ -22,8 +22,8 @@ This map is the second version of Megalith. In this version the raised stone rin
 
 [<img src="./maps/megalith2/megalith2_s5_m1.jpg" width="400" />](./maps/megalith2/megalith2_s5_m1.jpg)
 
-[<img src="./maps/dm_island17/megalith2_s6_m1.jpg" width="400" />](./maps/dm_island17/megalith2_s6_m1.jpg)
+[<img src="./maps/megalith2/megalith2_s6_m1.jpg" width="400" />](./maps/megalith2/megalith2_s6_m1.jpg)
 
-[<img src="./maps/dm_island17/megalith2_s7_m1.jpg" width="400" />](./maps/dm_island17/megalith2_s7_m1.jpg)
+[<img src="./maps/megalith2/megalith2_s7_m1.jpg" width="400" />](./maps/megalith2/megalith2_s7_m1.jpg)
 
 
