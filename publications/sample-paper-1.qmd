@@ -1,0 +1,10 @@
+---
+title: "[Sample Publication Title One]"
+author: "[Author list placeholder]"
+date: 2024-01-01
+categories: [placeholder]
+image: thumb1.png
+description: "[One or two sentence plain-language blurb about what this paper does and why it matters — not the abstract, just the pitch.]"
+---
+
+[Full abstract, links to PDF / code / bibtex go here on the paper's own page.]

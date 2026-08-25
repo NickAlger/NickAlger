@@ -1,0 +1,37 @@
+---
+title: "Nick Alger"
+page-layout: article
+---
+
+::: {.placeholder-note}
+[Photo placeholder]
+:::
+
+**[Title / Position], [Institution]**
+
+[Short bio / research statement goes here — a couple of sentences on who you are and what you work on.]
+
+[Email](mailto:placeholder@example.com) · [Google Scholar](#) · [GitHub](https://github.com/NickAlger) · [CV (PDF)](cv.pdf)
+
+## Research
+
+[Overview paragraph describing your research interests and current focus goes here.]
+
+### [Research Area 1]
+
+[A paragraph or two describing this research direction — motivation, key questions, and representative results. Math renders natively, e.g. $\nabla \cdot u = 0$.]
+
+### [Research Area 2]
+
+[Same as above.]
+
+### [Research Area 3]
+
+[Same as above.]
+
+## Contact
+
+- Email: [placeholder@example.com](mailto:placeholder@example.com)
+- GitHub: [github.com/NickAlger](https://github.com/NickAlger)
+- Google Scholar: [placeholder link](#)
+- Office: [placeholder]

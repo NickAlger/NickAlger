@@ -1,0 +1,25 @@
+---
+title: "[Example Note / Tutorial Title]"
+date: 2024-05-01
+categories: [placeholder, numerical-methods]
+image: plot.png
+description: "[One-sentence pitch for what this walkthrough covers and who it's for.]"
+---
+
+[Intro paragraph — what problem this note addresses, and why it came up in the course of your research.]
+
+## [Section heading]
+
+[Prose explaining the idea, with math where useful, e.g. $\|Ax - b\|_2$.]
+
+```python
+# Illustrative code snippet — syntax-highlighted, not executed.
+import numpy as np
+
+def residual(A, x, b):
+    return np.linalg.norm(A @ x - b)
+```
+
+![](plot.png){fig-align="center" width="60%"}
+
+[Wrap-up / takeaway paragraph.]

@@ -1,0 +1,7 @@
+---
+title: "[Sample Software Project One]"
+date: 2024-03-01
+categories: [placeholder]
+---
+
+[Description of the project, what it does, and why it's useful. Link to GitHub repo / docs / paper goes here.]

@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Nick Alger"
+  description: "Research, publications, and software."
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: publications.qmd
+        text: Publications
+      - href: software.qmd
+        text: Software
+      - href: notes.qmd
+        text: Notes
+      - href: cv.pdf
+        text: CV
+
+format:
+  html:
+    theme:
+      light: [cosmo, custom.scss]
+      dark: [darkly, custom.scss]
+    toc: false
+    smooth-scroll: true
