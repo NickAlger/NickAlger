@@ -6,3 +6,107 @@
   color: #888;
   font-style: italic;
 }
+
+/* Listing index pages (Publications/Software/Notes) repeat their own title
+   right below the navbar item that's already highlighted for them — drop it.
+   Scoped to pages that actually contain a listing, so individual content
+   pages (a specific paper, project, or note) keep their title. */
+body:has(.quarto-listing) #title-block-header {
+  display: none;
+}
+
+/* An individual paper/project/note page auto-shows its `description:` field
+   as a subtitle right under the title — redundant with the real abstract
+   or body text that follows. `description` is still used by the listing
+   cards on Publications/Software/Notes; this only hides the title-block
+   copy of it. */
+.quarto-title-block .description {
+  display: none;
+}
+
+/* Publications listing (pub-listing.ejs.md) */
+.pub-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.pub-item {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--bs-border-color, #dee2e6);
+}
+
+.pub-item:last-child {
+  border-bottom: none;
+}
+
+.pub-title,
+.pub-meta,
+.pub-description {
+  /* the template passes title/author/description through markdown, which
+     wraps them in <p> tags with their own default margins on top of ours */
+  p {
+    margin: 0;
+  }
+}
+
+.pub-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 0.05rem;
+  line-height: 1.3;
+}
+
+.pub-title a {
+  text-decoration: none;
+}
+
+.pub-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  color: var(--bs-body-color);
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+  line-height: 1.3;
+}
+
+.pub-author p {
+  display: inline;
+}
+
+.pub-date {
+  opacity: 0.65;
+}
+
+.pub-body {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+}
+
+.pub-image {
+  flex: 0 0 180px;
+}
+
+.pub-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.pub-description {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+@media (max-width: 600px) {
+  .pub-body {
+    flex-direction: column;
+  }
+  .pub-image {
+    flex-basis: auto;
+    max-width: 220px;
+  }
+}

@@ -1,9 +1,8 @@
 ---
 title: "Software"
 listing:
-  contents: software
+  contents: software/software.yml
   sort: "date desc"
-  type: default
+  template: .pub-listing.ejs.md
   categories: true
-  fields: [date, title]
 ---

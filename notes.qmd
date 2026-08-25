@@ -3,9 +3,6 @@ title: "Notes"
 listing:
   contents: notes
   sort: "date desc"
-  type: default
+  template: .pub-listing.ejs.md
   categories: true
-  fields: [image, date, title, description]
-  image-align: left
-  image-height: 120px
 ---

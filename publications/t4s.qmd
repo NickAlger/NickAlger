@@ -1,0 +1,30 @@
+---
+title: "Tucker tensor train Taylor series"
+author: "Nick Alger, Blake Christierson, Peng Chen, and Omar Ghattas"
+date: 2026-07-09
+categories: [In review]
+image: t4s_edgevars.png
+description: "Efficient construction of high order Taylor series surrogate models for PDE-based mappings in scientific machine learning. Large implicitly defined derivative tensors are approximated by Tucker tensor trains, a type of low rank tensor network."
+venue: "arXiv preprint arXiv:2603.21141 (2026). In review."
+---
+
+{{< meta venue >}}
+
+[arXiv preprint](https://arxiv.org/abs/2603.21141) · [Download PDF (arXiv)](https://arxiv.org/pdf/2603.21141)
+
+## Abstract
+
+Learning derivative-accurate surrogates for implicit simulators is a key challenge in scientific machine learning. High-order Taylor surrogates have long been considered intractable in high dimensions, because the derivative tensors are enormous and accessible only through probes. We make such surrogates tractable with the Tucker tensor train Taylor series (T4S), a local surrogate that represents each derivative tensor of a truncated Taylor expansion as a Tucker tensor train. T4S targets a different learning problem than global operator learning: rather than training from input-output pairs at many parameter values, it is trained from random directionally symmetric derivative probes at a single expansion point. Computing m probes of the kth derivative requires only $O(mk)$ linearized solves sharing one operator, cheaper than the $O(m)$ nonlinear solves for function evaluations or $O(m 2^k)$ linearized solves for asymmetric probes. We develop derivative-informed dimension reduction, Riemannian Gauss-Newton and Cauchy SGD fitting algorithms with rank continuation, requiring little hyperparameter tuning, and fast sweeping routines for the Riemannian Jacobian. We prove representational guarantees under spectral decay of the input covariance. Experiments show that our methods match quasi-optimal T3-SVD accuracy on random tensors from probes alone, up to data-limited ranks, and recover high-order Taylor structure in Poisson PDE examples.
+
+## BibTeX
+
+```bibtex
+@misc{alger2026tucker,
+  title={Tucker Tensor Train Taylor Series},
+  author={Alger, Nick and Christierson, Blake and Chen, Peng and Ghattas, Omar},
+  year={2026},
+  eprint={2603.21141},
+  archivePrefix={arXiv},
+  note={In review}
+}
+```

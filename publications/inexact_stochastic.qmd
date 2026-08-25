@@ -1,0 +1,29 @@
+---
+title: "Inexact Newton methods for stochastic nonconvex optimization with applications to neural network training"
+author: "Thomas O'Leary-Roseberry, Nick Alger, and Omar Ghattas"
+date: 2019-7-31
+categories: [Unpublished]
+image: inexact_hesseigs.png
+description: "A numerical and theoretical study of stochastic inexact Newton methods in nonconvex optimization."
+venue: "arXiv preprint arXiv:1905.06738 (2019)."
+---
+
+{{< meta venue >}}
+
+[arXiv preprint](https://arxiv.org/abs/1905.06738) · [Download PDF (arXiv)](https://arxiv.org/pdf/1905.06738)
+
+## Abstract
+
+We study stochastic inexact Newton methods and consider their application in nonconvex settings. Building on the work of [R. Bollapragada, R. H. Byrd, and J. Nocedal, IMA Journal of Numerical Analysis, 39 (2018), pp. 545--578] we derive bounds for convergence rates in expected value for stochastic low rank Newton methods, and stochastic inexact Newton Krylov methods. These bounds quantify the errors incurred in subsampling the Hessian and gradient, as well as in approximating the Newton linear solve, and in choosing regularization and step length parameters. We deploy these methods in training convolutional autoencoders for the MNIST and CIFAR10 data sets. Numerical results demonstrate that, relative to first order methods, these stochastic inexact Newton methods often converge faster, are more cost-effective, and generalize better.
+
+## BibTeX
+
+```bibtex
+@misc{oleary2019inexact,
+  title={Inexact Newton methods for stochastic nonconvex optimization with applications to neural network training},
+  author={O'Leary-Roseberry, Thomas and Alger, Nick and Ghattas, Omar},
+  year={2019},
+  eprint={1905.06738},
+  archivePrefix={arXiv}
+}
+```

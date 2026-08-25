@@ -1,0 +1,30 @@
+---
+title: "Data-scalable Hessian preconditioning for distributed parameter PDE-constrained inverse problems"
+author: "Nick Alger"
+date: 2019-06-21
+categories: [Ph.D. Dissertation]
+image: diss_hesseigs.png
+description: "My Ph.D. dissertation. I study the relationship between information content and Hessian eigenvalues in inverse problems, and how highly informative data negatively impacts the performance of numerical methods. I argue that these issues can be addressed by building data scalable Hessian preconditioners, and construct several such preconditioners."
+venue: "PhD dissertation, The University of Texas at Austin, 2019."
+---
+
+{{< meta venue >}}
+
+[View at UT Austin Repository](https://repositories.lib.utexas.edu/items/c10dd3e5-6302-4e42-b693-be7f26e4a1b5) · [Download PDF](ALGER-DISSERTATION-2019.pdf)
+
+## Abstract
+
+Hessian preconditioners are the key to efficient numerical solution of large-scale distributed parameter PDE-constrained inverse problems with highly informative data. Such inverse problems arise in many applications, yet solving them remains computationally costly. With existing methods, the computational cost depends on spectral properties of the Hessian which worsen as more informative data are used to reconstruct the unknown parameter field. The best case scenario from a scientific standpoint (lots of high-quality data) is therefore the worst case scenario from a computational standpoint (large computational cost).
+
+In this dissertation, we argue that the best way to overcome this predicament is to build data-scalable Hessian/KKT preconditioners---preconditioners that perform well even if the data are highly informative about the parameter. We present a novel data-scalable KKT preconditioner for a diffusion inverse problem, a novel data-scalable Hessian preconditioner for an advection inverse problem, and a novel data-scalable domain decomposition preconditioner for an auxiliary operator that arises in connection with KKT preconditioning for a wave inverse problem. Our novel preconditioners outperform existing preconditioners in all three cases: they are robust to large numbers of observations in the diffusion inverse problem, large Peclet numbers in the advection inverse problem, and high wave frequencies in the wave inverse problem.
+
+## BibTeX
+
+```bibtex
+@phdthesis{alger2019data,
+  title={Data-scalable Hessian preconditioning for distributed parameter PDE-constrained inverse problems},
+  author={Alger, Nicholas Vieau},
+  year={2019},
+  school={The University of Texas at Austin}
+}
+```

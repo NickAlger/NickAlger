@@ -1,0 +1,15 @@
+- title: "T3Toolbox"
+  href: "https://github.com/NickAlger/T3Toolbox"
+  author: "Nick Alger, Blake Christierson"
+  date: 2026-04-02
+  categories: [Python, tensor-networks]
+  image: software/t3_diagram.svg
+  description: "A NumPy/JAX library for Tucker tensor trains, a tensor network format that breaks the curse of dimensionality at moderate rank. Grew out of the [Tucker Tensor Train Taylor Series](publications/t4s.qmd) paper, but is a general-purpose library — cite the paper for the research contributions, the software separately if you're just using the tool."
+
+- title: "ellipsoid_tree"
+  href: "https://github.com/NickAlger/ellipsoid_tree"
+  author: "Nick Alger"
+  date: 2026-07-17
+  categories: [C++, computational-geometry]
+  image: software/ellipsoid_tree_batches.svg
+  description: "Exact intersection tests for points, boxes, balls, ellipsoids, and simplices in any dimension, with tree-accelerated queries. Header-only C++17, Python bindings."

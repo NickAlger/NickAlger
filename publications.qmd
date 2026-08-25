@@ -1,11 +1,48 @@
 ---
 title: "Publications"
 listing:
-  contents: publications
-  sort: "date desc"
-  type: default
-  categories: true
-  fields: [image, date, title, author, description]
-  image-align: left
-  image-height: 120px
+  - id: published
+    contents: publications
+    include: {categories: "Published"}
+    sort: "date desc"
+    template: .pub-listing.ejs.md
+    categories: true
+  - id: in-review
+    contents: publications
+    include: {categories: "In review"}
+    sort: "date desc"
+    template: .pub-listing.ejs.md
+    categories: true
+  - id: dissertation
+    contents: publications
+    include: {categories: "Ph.D. Dissertation"}
+    sort: "date desc"
+    template: .pub-listing.ejs.md
+    categories: true
+  - id: unpublished
+    contents: publications
+    include: {categories: "Unpublished"}
+    sort: "date desc"
+    template: .pub-listing.ejs.md
+    categories: true
 ---
+
+## Published
+
+::: {#published}
+:::
+
+## In Review
+
+::: {#in-review}
+:::
+
+## Dissertation
+
+::: {#dissertation}
+:::
+
+## Unpublished
+
+::: {#unpublished}
+:::

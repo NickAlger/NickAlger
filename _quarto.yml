@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - software/*.svg
 
 website:
   title: "Nick Alger"
@@ -15,8 +17,6 @@ website:
         text: Software
       - href: notes.qmd
         text: Notes
-      - href: cv.pdf
-        text: CV
 
 format:
   html:
