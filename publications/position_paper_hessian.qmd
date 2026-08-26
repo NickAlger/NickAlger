@@ -1,0 +1,33 @@
+---
+title: "Large-scale Bayesian inversion with complex models demands structure-exploiting high-rank Hessian approximations"
+author: "Nick Alger, Tucker Hartland, Toby Isaac, and Noemi Petra"
+date: 2025-06-10
+categories: [Position Papers]
+image: ice_spectrum.png
+description: "Short position paper arguing that large-scale Bayesian inverse problems with informative data need new structure-exploiting high-rank Hessian approximation methods."
+venue: "Position paper, Inverse Methods for Complex Systems under Uncertainty Workshop (DOE ASCR). June 2025. Rockville, MD."
+---
+
+{{< meta venue >}}
+
+[View at workshop site (ORAU)](https://www.orau.gov/support_files/2025InverseMethods/AlgerN.pdf) · [Download PDF](position_paper_hessian.pdf)
+
+## Abstract
+
+Bayesian inversion provides a coherent mathematical framework for integrating data and prior information with complex models to estimate model parameters and quantify uncertainties. Efficient and robust large-scale Bayesian inversion methods open the door to tackle outer loop problems such as prediction, optimal experimental design under uncertainty, optimal control, and decision making under uncertainty. However, characterizing the posterior distributions for Bayesian inverse problems with high-dimensional parameters or predictions requires repeated expensive evaluations of the model and its derivatives with respect to parameters. To make solution of large-scale Bayesian inverse problems computationally tractable, it is imperative to reduce the number of such model evaluations by exploiting problem structure.
+
+Here, we advocate exploiting problem structure to build approximations for the second derivative (Hessian) of the negative log posterior. Hessian approximations can be used, for example, to accelerate Newton-type methods for estimating the maximum a-posteriori probability (MAP) point, to build the Laplace approximation of the posterior (a local Gaussian approximation with covariance given by the inverse of the Hessian at the MAP), and Hessian-informed Markov chain Monte Carlo methods for sampling from the posterior. Numerical methods that do not make use of the Hessian typically perform poorly because they have difficulty accounting for the widely varying directional scalings (ill-conditioning) of the posterior which are common in large-scale Bayesian inverse problems. The Hessian takes on even greater importance when the Bayesian inverse problem is nested within an outer loop problem. In some outer loop problem formulations the Hessian appears explicitly (e.g., prediction, optimal experimental design, optimal control), while in other cases the Hessian is central to efficient numerical methods.
+
+This position paper contributed to the workshop's [final report](https://science.osti.gov/-/media/ascr/pdf/workshops-conferences/2025/DOE_Inverse_Problems_Under_Uncertainty_final.pdf): Donatelli, J., Jakeman, J., Shields, M., Gelb, A., Herrmann, F., Jantre, S., Larson, J., Mueller, J., Oberai, A., Petra, C. and Wohlberg, B., 2025. *Basic Research Needs for Inverse Methods for Complex Systems under Uncertainty.* US Department of Energy (USDOE), Office of Science, Advanced Scientific Computing Research (ASCR).
+
+## BibTeX
+
+```bibtex
+@misc{alger2025largescale,
+  title={Large-scale Bayesian inversion with complex models demands structure-exploiting high-rank Hessian approximations},
+  author={Alger, Nick and Hartland, Tucker and Isaac, Toby and Petra, Noemi},
+  howpublished={Position paper, DOE ASCR Workshop on Inverse Methods for Complex Systems under Uncertainty},
+  address={Rockville, MD},
+  year={2025}
+}
+```

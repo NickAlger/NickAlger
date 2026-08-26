@@ -1,0 +1,32 @@
+---
+title: "Tensor train construction from tensor actions, with application to compression of large high order derivative tensors"
+author: "Nick Alger, Peng Chen, and Omar Ghattas"
+date: 2020-10-27
+categories: [Published]
+image: tt_peeling.png
+description: "A method to a construct a tensor train from multilinear tensor actions, enabling compression of implicitly defined large high order derivative tensors. Access to tensor entries is not required."
+venue: "SIAM Journal on Scientific Computing 42, no. 5 (2020): A3516-A3539."
+---
+
+{{< meta venue >}}
+
+[View at SIAM (DOI)](https://epubs.siam.org/doi/10.1137/20M131936X) · [arXiv preprint](https://arxiv.org/abs/2002.06244) · [Download PDF (arXiv)](https://arxiv.org/pdf/2002.06244) · [Code](https://github.com/NickAlger/TensorTrainHigherDerivatives)
+
+## Abstract
+
+We present a method for converting tensors into tensor train format based on actions of the tensor as a vector-valued multilinear function. Existing methods for constructing tensor trains require access to "array entries" of the tensor and are therefore inefficient or computationally prohibitive if the tensor is accessible only through its action, especially for high order tensors. Our method permits efficient tensor train compression of large high order derivative tensors for nonlinear mappings that are implicitly defined through the solution of a system of equations. Array entries of these derivative tensors are not directly accessible, but actions of these tensors can be computed efficiently via a procedure that we discuss. Such tensors are often amenable to tensor train compression in theory, but until now no efficient algorithm existed to convert them into tensor train format. We demonstrate our method by compressing a Hilbert tensor of size 41 × 42 × 43 × 44 × 45, and by forming high order (up to 5th order derivatives/6th order tensors) Taylor series surrogates of the noise-whitened parameter-to-output map for a stochastic partial differential equation with boundary output.
+
+## BibTeX
+
+```bibtex
+@article{alger2020tensor,
+  title={Tensor train construction from tensor actions, with application to compression of large high order derivative tensors},
+  author={Alger, Nick and Chen, Peng and Ghattas, Omar},
+  journal={SIAM Journal on Scientific Computing},
+  volume={42},
+  number={5},
+  pages={A3516--A3539},
+  year={2020},
+  publisher={SIAM}
+}
+```

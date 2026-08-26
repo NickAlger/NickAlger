@@ -1,0 +1,30 @@
+---
+title: "Full-waveform inversion using smoothing kernels"
+author: "Zhiguang Xue, Nick Alger, and Sergey Fomel"
+date: 2016-10-16
+categories: [Published]
+image: FWI_smoothing.png
+description: "A residual smoothing continuation strategy to address cycle skipping in full-waveform inversion."
+venue: "SEG Technical Program Expanded Abstracts 2016. Society of Exploration Geophysicists, 2016. 1358-1363."
+---
+
+{{< meta venue >}}
+
+[View at SEG Digital Library (DOI)](https://doi.org/10.1190/segam2016-13948739.1)
+
+## Abstract
+
+We introduce smoothing kernels into the FWI (full waveform inversion) objective function to mitigate the cycle skipping problem. This approach resembles the commonly used frequency continuation technique, wherein low frequencies are inverted for first, followed by progressively higher and higher frequencies. However, FWI with smoothing kernels does not require the existence of very low frequency components in seismic data. Its implementation is straightforward based on the conventional least-squares FWI. It successively minimizes a sequence of modified least-squares objective functions which measure smoothed data residuals. The smoothing strength at each stage of the inversion is different: it begins with strong smoothing and ends with no smoothing, at which point the inversion converges to the solution of the original (unsmoothed) problem. We propose three alternative optimization strategies for inverting for velocity models using smoothing kernels: successive smoothing relaxation, smoothing path continuation, and homotopy continuation. Numerical examples demonstrate that FWI using smoothing kernels can effectively overcome the cycle skipping problem, and is capable of producing highly accurate velocity models even in salt-affected environments and in the absence of ultra low frequencies.
+
+## BibTeX
+
+```bibtex
+@incollection{xue2016full,
+  title={Full-waveform inversion using smoothing kernels},
+  author={Xue, Zhiguang and Alger, Nick and Fomel, Sergey},
+  booktitle={SEG Technical Program Expanded Abstracts 2016},
+  pages={1358--1363},
+  year={2016},
+  publisher={Society of Exploration Geophysicists}
+}
+```

@@ -1,7 +1,7 @@
 ---
 title: "A data scalable augmented Lagrangian KKT preconditioner for large-scale inverse problems"
 author: "Nick Alger, Umberto Villa, Tan Bui-Thanh, and Omar Ghattas"
-date: 2017-01-01
+date: 2017-10-24
 categories: [Published]
 image: aug_kkt.png
 description: "A data scalable block diagonal preconditioner for the KKT operators arising in inverse problems."

@@ -1,0 +1,30 @@
+---
+title: "Accelerating seismic inversion and uncertainty quantification with efficient high-rank Hessian approximations"
+author: "Mathew Hu, Nick Alger, Rami Nammour, and Omar Ghattas"
+date: 2025-07-14
+categories: [In review]
+image: pdo_hessian.png
+description: "A high-rank Hessian approximation method based on combining sampled rows and columns of the Hessian's pseudo-differential symbol. Unifies point spread function and pseudo-differential operator probing. Used to accelerate seismic full waveform inversion and Bayesian MCMC."
+venue: "arXiv preprint arXiv:2507.10804 (2025). In review."
+---
+
+{{< meta venue >}}
+
+[arXiv preprint](https://arxiv.org/abs/2507.10804) · [Download PDF (arXiv)](https://arxiv.org/pdf/2507.10804)
+
+## Abstract
+
+Efficient high-rank approximations of the Hessian can accelerate seismic full waveform inversion (FWI) and uncertainty quantification (UQ). In FWI, approximations of the inverse of the Hessian may be used as preconditioners for Newton-type or quasi-Newton algorithms, reducing computational costs and improving recovery in deeper subsurface regions. In Bayesian UQ, Hessian approximations enable the construction of Markov chain Monte Carlo (MCMC) proposals that capture the directional scalings of the posterior, enhancing the efficiency of MCMC. Computing the exact Hessian is intractable for large-scale problems because the Hessian is accessible only through matrix-vector products, and performing each matrix-vector product requires costly solution of wave equations. Moreover, the Hessian is high-rank, which means that low-rank methods, often employed in large-scale inverse problems, are inefficient. We adapt two existing high-rank Hessian approximations -- the point spread function method and the pseudo-differential operator probing method. Building on an observed duality between these approaches, we develop a novel method that unifies their complementary strengths. We validate these methods on a synthetic quadratic model and on the Marmousi model. Numerical experiments show that these high-rank Hessian approximations substantially reduce the computational costs in FWI. In UQ, MCMC samples computed using no Hessian approximation or a low-rank approximation explore the posterior slowly, providing little meaningful statistical information after tens of thousands of iterations and underestimating the variance. At the same time, the effective sample size is overestimated, providing false confidence. In contrast, MCMC samples generated using the high-rank Hessian approximations provide meaningful statistical information about the posterior and more accurately assess the posterior variance.
+
+## BibTeX
+
+```bibtex
+@misc{hu2025accelerating,
+  title={Accelerating seismic inversion and uncertainty quantification with efficient high-rank Hessian approximations},
+  author={Hu, Mathew and Alger, Nick and Nammour, Rami and Ghattas, Omar},
+  year={2025},
+  eprint={2507.10804},
+  archivePrefix={arXiv},
+  note={In review}
+}
+```

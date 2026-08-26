@@ -25,6 +25,12 @@ listing:
     sort: "date desc"
     template: .pub-listing.ejs.md
     categories: true
+  - id: position-papers
+    contents: publications
+    include: {categories: "Position Papers"}
+    sort: "date desc"
+    template: .pub-listing.ejs.md
+    categories: true
 ---
 
 ## Published
@@ -45,4 +51,9 @@ listing:
 ## Unpublished
 
 ::: {#unpublished}
+:::
+
+## Position Papers
+
+::: {#position-papers}
 :::

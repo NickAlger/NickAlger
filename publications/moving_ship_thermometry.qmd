@@ -1,0 +1,31 @@
+---
+title: "Moving ship thermometry"
+author: "James A. Mercer, Nick Alger, Bruce M. Howe, Rex K. Andrew, and John A. Colosi"
+date: 2006-11-28
+categories: [Published]
+description: "A preliminary thermal snapshot of the NE Pacific Ocean basin based on data from the Long-range Ocean Acoustic Propagation Experiment (LOAPEX), using sound wave travel time data and a simple linearized inversion method."
+venue: "The Journal of the Acoustical Society of America 120, no. 5 (2006): 3061-3061."
+---
+
+{{< meta venue >}}
+
+[View at AIP (JASA)](https://pubs.aip.org/asa/jasa/article/120/5_Supplement/3061/710495/Moving-ship-thermometry)
+
+## Abstract
+
+The long-range ocean acoustic propagation experiment (LOAPEX), conducted in the NE Pacific Ocean, provided acoustic transmissions from a ship-suspended source at seven stations spanning a near zonal path of 3200 km. The transmissions were received on several bottom-mounted horizontal hydrophone arrays distributed about the NE Pacific Ocean Basin. The experiment and a simple inverse method are described and a preliminary thermal "snapshot" of the ocean basin is presented.
+
+## BibTeX
+
+```bibtex
+@article{mercer2006moving,
+  title={Moving ship thermometry},
+  author={Mercer, James A. and Alger, Nick and Howe, Bruce M. and Andrew, Rex K. and Colosi, John A.},
+  journal={The Journal of the Acoustical Society of America},
+  volume={120},
+  number={5},
+  pages={3061--3061},
+  year={2006},
+  publisher={Acoustical Society of America}
+}
+```

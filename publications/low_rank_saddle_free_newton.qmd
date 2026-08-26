@@ -1,0 +1,29 @@
+---
+title: "Low Rank Saddle Free Newton: A Scalable Method for Stochastic Nonconvex Optimization"
+author: "Thomas O'Leary-Roseberry, Nick Alger, and Omar Ghattas"
+date: 2020-02-07
+categories: [Unpublished]
+image: LRSFN_spectrum.png
+description: "A matrix-free scalable low-rank saddle-free Newton method for stochastic nonconvex optimization. By flipping negative Hessian eigenvalues, Newton iterates escape indefinite regions faster."
+venue: "arXiv preprint arXiv:2002.02881 (2020)."
+---
+
+{{< meta venue >}}
+
+[arXiv preprint](https://arxiv.org/abs/2002.02881) · [Download PDF (arXiv)](https://arxiv.org/pdf/2002.02881)
+
+## Abstract
+
+In modern deep learning, highly subsampled stochastic approximation (SA) methods are preferred to sample average approximation (SAA) methods because of large data sets as well as generalization properties. Additionally, due to perceived costs of forming and factorizing Hessians, second order methods are not used for these problems. In this work we motivate the extension of Newton methods to the SA regime, and argue for the use of the scalable low rank saddle free Newton (LRSFN) method, which avoids forming the Hessian in favor of making a low rank approximation. Additionally, LRSFN can facilitate fast escape from indefinite regions leading to better optimization solutions. In the SA setting, iterative updates are dominated by stochastic noise, and stability of the method is key. We introduce a continuous time stability analysis framework, and use it to demonstrate that stochastic errors for Newton methods can be greatly amplified by ill-conditioned Hessians. The LRSFN method mitigates this stability issue via Levenberg-Marquardt damping. However, generally the analysis shows that second order methods with stochastic Hessian and gradient information may need to take small steps, unlike in deterministic problems. Numerical results show that LRSFN can escape indefinite regions that other methods have issues with; and even under restrictive step length conditions, LRSFN can outperform popular first order methods on large scale deep learning tasks in terms of generalizability for equivalent computational work.
+
+## BibTeX
+
+```bibtex
+@misc{oleary2020low,
+  title={Low Rank Saddle Free Newton: A Scalable Method for Stochastic Nonconvex Optimization},
+  author={O'Leary-Roseberry, Thomas and Alger, Nick and Ghattas, Omar},
+  year={2020},
+  eprint={2002.02881},
+  archivePrefix={arXiv}
+}
+```
